@@ -14,8 +14,8 @@ function send(){
 }
 
 function newUser(){
-    location.href = "/html/form.html"
+    location.href = "form.html"
 }
 function login(){
-    location.href = "/html/login.html"
+    location.href = "login.html"
 }
