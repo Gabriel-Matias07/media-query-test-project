@@ -1,0 +1,56 @@
+body{
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(73, 70, 70);
+    margin-top: 15px;
+    padding: 25px;
+    font-size: 1.5rem;
+    width: 100vh;
+    height: 85vh;
+    border: solid 1px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form h1{
+    font-weight: 600;
+    color: #58AF9C;
+}
+form p{
+    font-weight: 600;
+}
+form input{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+form button{
+    color: #ffffff;
+    background-color: #58AF9C;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+
+
+/* Tablets */
+/* @media (min-width: 768px){
+    body{
+     
+    }
+} */
